@@ -1,0 +1,58 @@
+# Prachi-Pathak
+Assignment 4
+
+
+1. Display even numbers from 1–10
+Python
+
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+OUTPUT 
+2
+4
+6
+8
+10
+
+2.Add odd numbers from 1–10
+Python
+
+sum = 0
+for i in range(1, 11):
+    if i % 2 != 0:
+        sum += i
+print("Sum of odd numbers:", sum)
+
+OUTPUT 
+Sum of odd numbers: 25
+
+3. Add odd numbers from 1–10
+Python
+sum = 0
+for i in range(1, 11):
+    if i % 2 != 0:
+        sum += i
+print("Sum of odd numbers:", sum)
+
+OUTPUT 
+0 1 1 2 3 5 8 13 21 34
+
+
+4. Remove characters at odd index positions
+Python
+string = input("Enter a string: ")
+
+result = ""
+for i in range(len(string)):
+    if i % 2 == 0:
+        result += string[i]
+
+print("Result:", result)
+
+OUTPUT 
+Enter a string: Python
+
+
+
+
